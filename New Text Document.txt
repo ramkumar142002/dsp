@@ -1,0 +1,16 @@
+//IIR FILTER INPUTS//
+Enter the passband ripple 15
+Enter the stopband ripple 60
+Enter the passband frequency 1500 [1000 3000 ]
+Enter the stopband frequency 3000[500 4000]
+Enter the sampling frequency 7000
+Enter the choice
+1 for LPF
+2 for HPF
+3 for BPF
+4 for BSF
+
+//FIR FILTER INPUTS//
+Enter the length of window 40
+Enter the cut off frequency 700
+Enter the sampling frequency 2000

@@ -1,0 +1,10 @@
+x=0:0.1:3*pi;
+y=cos(x);
+subplot(2,1,1);
+plot(x,y);
+xlabel('Time');
+ylabel('Amplitude');
+title('cosine wave function');
+y=sin(x);
+subplot(2,1,1);
+stem(x,y);

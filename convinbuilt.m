@@ -1,0 +1,10 @@
+x=[1,2,3,4];
+h=[3,4,5,6];
+n1=length(x);
+n2=length(h);
+N=n1+n2-1;
+x=[x zeros(1,n2)];
+h=[h zeros(1,n1)];
+% z=zeros(1,N);
+z=conv(x,h);
+disp(z);

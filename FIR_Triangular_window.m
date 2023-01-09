@@ -1,0 +1,13 @@
+clc;
+clear all;
+close all;
+N=input('Enter the length of window');
+fc=input('Enter the cut-off frequency');
+fs=input('Enter thesampling frequency');
+wc=fc/fs;
+w=triang(N);
+b=fir1(N-1,wc,w);
+freqz(b);
+disp(N);
+%disp(w);
+%disp(b);
